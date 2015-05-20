@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learn Handlebars</title>
+	<style>
+		body{background:#1B1F23;color:#f1f1f1;font-family: helvetica;}
+
+	</style>
+</head>
+<body>
+	<h1>Learn Handlebars in 10 minutes</h1>
+
+
+	<script id="contextTemplate" type="x-handlebars-template">
+		{{#each pageLinks}}
+			<p>{{linkName}}{{linkColor}}</p>
+		{{/each}}
+	</script>
+
+	<div class="outputDiv"></div>	
+
+
+
+<!-- Either download the source code from their website, or cdn that bitch. -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
